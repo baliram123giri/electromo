@@ -16,6 +16,10 @@
     justify-content: end;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
+
 .text-end{
     text-align: end;
 }
@@ -23,3 +27,4 @@
 .gap-10{
     gap: 10px;
 }
+
