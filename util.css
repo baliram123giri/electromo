@@ -27,4 +27,24 @@
 .gap-10{
     gap: 10px;
 }
+.gap-20{
+    gap: 20px;
+}
+.gap-30{
+    gap: 30px;
+}
+.gap-40{
+    gap: 40px;
+}
 
+.pointer{
+    cursor: pointer;
+}
+
+.flex-wrap{
+     flex-wrap: wrap;
+}
+
+.bg-primary{
+    background:cyan;
+}

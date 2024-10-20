@@ -1,3 +1,18 @@
+:root{
+    --primary:#34B1DA;
+    --text-secondary:#FFFFFF;
+    --text-balck:#000;
+    --bg-balck:#000;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
 *{
     margin: 0;
 }
@@ -7,7 +22,7 @@ header{
 }
 
 header .b_top_header{
-    background-color: #34B1DA;
+    background-color: var(--primary);
     color: white;
     font-size: 25px;
 }
@@ -31,7 +46,7 @@ header .b_top_header{
 }
 
 .b_search{
-    width: 50%;
+    width: 55%;
      height: fit-content;
     
 }
@@ -42,8 +57,71 @@ background: none;
 outline: none;
  padding: 10px;
  border: none;
- /* border: 1px solid #808080; */
+ border: 1px solid #8080802c;
  border-top-left-radius: 5px;
  border-bottom-left-radius: 5px;
- box-shadow: 0px 0.5px 1px 1px #80808011;
+
+}
+
+.b_search button{
+    background-color: var(--primary);
+    color: var(--text-secondary);
+    border: none;
+    padding: 0 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.b_search button:hover{
+    background-color:var(--text-balck) ;
+}
+.b_contact{
+    font-size: 25px;
+}
+.b_contact h5:hover{
+  cursor: pointer;
+  color: var(--primary);
+}
+
+.b_bottom__header_part .b_left_box{
+      flex: 0.2;
+     color: var(--text-secondary);
+     background-color: var(--primary);
+     padding: 15px 25px;
+     font-size: 20px;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+}
+
+.b_bottom__header_part .b_right_box{
+    flex: 1;
+   align-items: stretch;
+    background-color: var(--bg-balck);
+}
+.b_bottom__header_part .b_right_box ul{
+    height: 100%;
+    align-items: center;
+}
+.b_bottom__header_part .b_right_box ul li {
+  padding: 10px 15px;
+  color: var(--text-secondary);
+
+}
+
+.b_bottom__header_part .b_right_box ul li a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.b_bottom__header_part .b_right_box ul li a:hover{
+    color: var(--primary);
+}
+
+li.b_cart_items{
+    background-color: var(--primary);
+    margin-left: auto;
+    align-self: stretch;
+    padding: 0px 25px !important;
+
 }
