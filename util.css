@@ -1,3 +1,11 @@
+:root{
+    --primary:#34B1DA;
+    --text-secondary:#FFFFFF;
+    --text-balck:#000;
+    --bg-balck:#000;
+    --bg-dark-gray:#464646;
+    --bg-secondary:#F2F2F2;
+}
 .container{
     width: 80%;
 
@@ -14,6 +22,12 @@
 
 .justify-end{
     justify-content: end;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-start{
+    justify-content: start !important;
 }
 
 .justify-between{
@@ -48,3 +62,45 @@
 .bg-primary{
     background:cyan;
 }
+
+.flex-col{
+    flex-direction: column;
+}
+
+.w-25{
+    width: 25%;
+}
+.w-50{
+    width: 50%;
+}
+.w-75{
+    width: 75%;
+}
+.w-100{
+    width: 100%;
+}
+.h-25{
+    height: 25%;
+}
+.h-50{
+    height: 50%;
+}
+.h-75{
+    height: 75%;
+}
+.h-100{
+    height: 100%;
+}
+
+.black_btn{
+   background-color: var(--bg-dark-gray) ;
+   color: var(--bg-secondary);
+   padding: 10px 20px;
+   border-radius: 5px;
+}
+
+
+
+  .underline{
+      text-decoration: underline;
+  }

@@ -3,6 +3,7 @@
     --text-secondary:#FFFFFF;
     --text-balck:#000;
     --bg-balck:#000;
+    --bg-secondary:#F2F2F2;
 }
 
 ul{
@@ -29,7 +30,6 @@ header .b_top_header{
 
 .left_top_header{
     width: 40%;
-
 
 }
 
@@ -125,3 +125,56 @@ li.b_cart_items{
     padding: 0px 25px !important;
 
 }
+
+.b_banner{
+  background-color: var(--bg-secondary);
+
+}
+.b_banner .b_slide{
+    height: 300px;
+    padding: 50px 20px 0px 20px;
+    background: url(https://livedemo00-opencart.template-help.com/opencart_prod-23516/image/cache/catalog/slide-2-870x345.jpg);
+    background-repeat: no-repeat ;
+    /* background-position-x: 100px; */
+    background-size: cover;
+
+}
+.b_banner .b_slide span{
+    font-size: 12px;
+    color: gray;
+} 
+
+.b_banner .b_slide h2{
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.b_arrivals{
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    /* background-position: center; */
+    background: url(https://livedemo00-opencart.template-help.com/opencart_prod-23516/image/cache/catalog/banner-1-570x350.jpg);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid transparent;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 190px;
+    gap: 5px;
+  }
+
+  .grid-item:hover{
+      border: 2px solid green;
+  }
